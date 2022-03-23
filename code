@@ -1,0 +1,17 @@
+public class Animals { 
+   String color; 
+   String species; 
+   String voice; 
+    
+   public Pet(String foxColor, String foxSpecies) { 
+      color = foxColor; 
+      species = foxSpecies; 
+   } 
+   public String getvoice(){ return voice; }  
+   public void say(){  
+        System.out.println("Voice: " + voice);  
+    }  
+   public static void main(String[] args) { 
+      Animals fox1 = new Animals(“Orange”, “Vulpes vulpes”); 
+   } 
+}
